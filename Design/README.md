@@ -95,6 +95,8 @@ Yertle can be 3D printed with PLA or ABS. You will need a printer with a build p
 | 25T Metal Servo Circular Horn    | 4       | £5           |    [link](https://link-url-link.org)       |  |
 | 25T Metal Servo Arm Horn  | 4       | £5           |    [link](https://link-url-link.org)       |  |
 | Copper Bushings 3mm Bore x 5mm OD x 5mm | 30       | £15           |    [link](https://link-url-link.org)       |  |
+| ACS712 AC/DC Current sensor 20A? | 1       | £?           |    [link](https://link-url-link.org)       | Not really sure of the exact current needed based on michaelkubina's SpotMicroESP32 version, he uses the 20A version. |
+| DC 0-25V Voltage Sensor | 1       | £?           |    [link](https://link-url-link.org)       | Same as michaelkubina SpotMicroESP32 |
 <br>
 
 
