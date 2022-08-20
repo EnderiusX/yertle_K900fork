@@ -19,7 +19,7 @@ The robot consists of:
 * A 5000mah battery - 30 minutes of run time (optional). Testing with 18650 Li-ion batteries (Will update later)
 * A 9-axis accelerometer/gyro sensor. (optional)
 * A current and voltage sensor. (optional)
-* A microcontroller (NodeMCU-ESP32s) to communicate with hardware and sensors.
+* A microcontroller (NodeMCU-ESP32s; other ESP32 boards might work.) to communicate with hardware and sensors.
 * A single-board computer (RPi4) to compute image, location, ROS and advanced controller algorithms. (optional)
 * 1.8 kg
 
