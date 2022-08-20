@@ -16,7 +16,7 @@
 The robot consists of:
 
 * 4 limbs with 3 degrees of freedom powered by hobby servos, with a leg extension of approximately 20cm.
-* A 5000mah battery - 30 minutes of run time (optional). K900: Testing with 18650 Li batteries (Will update later)
+* A 5000mah battery - 30 minutes of run time (optional). Testing with 18650 Li-ion batteries (Will update later)
 * A 9-axis accelerometer/gyro sensor. (optional)
 * A current and voltage sensor. (optional)
 * A microcontroller (NodeMCU-ESP32s) to communicate with hardware and sensors.
