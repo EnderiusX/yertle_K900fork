@@ -81,20 +81,20 @@ Yertle can be 3D printed with PLA or ABS. You will need a printer with a build p
 # Bill of Materials:
 | Item          | Quantity      | Cost          | Link          | Notes      |
 | ------------- | ------------- | ------------- | ------------- | ---------- |
-| PLA           | 1Kg           | £19           |    [link](https://link-url-link.org)       | This can be ABS of PEG. |
-| SPT Servo SPT5435LV-180W 35KG   | 12            | £162.36           |    [link](https://link-url-link.org)       | They need to be >= 15Kg/cm.|
-| M3 Screws, Nuts and washers     | x100           | £10           |    [link](https://link-url-link.org)       | |
-| MPU9250           | 1          | £5           |    [link](https://link-url-link.org)       | |
-| ESP32s         | 1           | £5           |    [link](https://link-url-link.org)       | |
+| PLA/PETG/ABS(+)           | 1Kg           | £19           |    [link](https://link-url-link.org)       | This can be ABS or PETG. |
+| SPT Servo SPT5435LV-180W 35KG (0.14s/60°)   | 12            | £162.36           |    [link](https://link-url-link.org)       | They need to be >= 15Kg/cm.|
+| M3 Screws, Nuts and washers     | x100           | £10           |    [link](https://link-url-link.org)       | M3x20 half-threaded screws are used for the joints that connect ot eh lower tibia. |
+| MPU9250           | 1          | £5           |    [link](https://link-url-link.org)       | Currently optional. |
+| (Node_MCU) ESP32s         | 1           | £5           |    [link](https://link-url-link.org)       | |
 | (Raspberry Pi 4B)          | 1           | £50           |    [link](https://link-url-link.org)       | This is optional, The robot can uses remote device.  |
 | PCA9685 Servo Driver         | 1          | £4           |    [link](https://link-url-link.org)       |  |
 | 7.4V 2S 5000mAh 50C LiPo Battery | 1          | £30           |    [link](https://link-url-link.org)       | this can be smaller if you want less weight/cost |
 | Miniature Ball Bearings 5x16x5mm   | 4       | £3           |    [link](https://link-url-link.org)       | |
-|  Deep Groove Ball Bearings 25x37x7mm   | 4       | £9           |    [link](https://link-url-link.org)       |  |
-|  RS PRO Miniature Ball Bearing 3x13X5mm  | 8       | £9           |    [link](https://link-url-link.org)       |  |
+| Deep Groove Ball Bearings 25x37x7mm   | 4       | £9           |    [link](https://link-url-link.org)       |  |
+| RS PRO Miniature Ball Bearing 3x13X5mm  | 8       | £9           |    [link](https://link-url-link.org)       |  |
 | 25T Metal Servo Circular Horn    | 4       | £5           |    [link](https://link-url-link.org)       |  |
 | 25T Metal Servo Arm Horn  | 4       | £5           |    [link](https://link-url-link.org)       |  |
-| Sleeve Bearing 3mm Bore x 5mm OD x 5mm | 30       | £15           |    [link](https://link-url-link.org)       |  |
+| Copper Bushings 3mm Bore x 5mm OD x 5mm | 30       | £15           |    [link](https://link-url-link.org)       |  |
 <br>
 
 
@@ -103,7 +103,7 @@ Yertle can be 3D printed with PLA or ABS. You will need a printer with a build p
 
 # Electronics
 
-Yertle is controlled by an ESP-32s microcontroller and a Raspberry Pi 4 Single board computer. The robot can operate with just the ESP but will require a computer or phone with WiFi capable of running python3. The flow diagram shows the general electronic connections and wiring. 
+Yertle is controlled by an ESP-32s microcontroller and a Raspberry Pi 4 Single board computer. The robot can operate with just the ESP32 but will require a computer or phone with WiFi capable of running python3. The flow diagram shows the general electronic connections and wiring. 
 The current and voltage sensors are optional.
 
 ![Yertle Diagram flow](https://user-images.githubusercontent.com/12387040/177245145-c20d1fc6-862a-4f38-909a-6146b7b7e857.png)
@@ -144,6 +144,6 @@ Connect electronics and zero the servos (before connecting legs).
 <br>
 
 ## Part5:
-Connect legs and Shell.
+Connect legs and shell.
 
 <img  align="center"  style=" display: block;margin-left: auto;margin-right: auto;width:400px;border: 5px solid grey;border-radius:20%;" src="https://user-images.githubusercontent.com/12387040/177191503-e122d730-9d83-4a72-aaf7-d9e7b08e673a.gif">
